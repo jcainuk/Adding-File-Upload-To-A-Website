@@ -15,6 +15,11 @@ router.get('/new-user', (req, res) => {
 router.post('/profiles', upload.single('image'), (req, res) => {
   const uploadedImageFile = req.file;
   const userData = req.body;
+
+  console.log(uploadedImageFile);
+  console.log(userData);
+
+  res.redirect('/');
 });
 
 module.exports = router;
