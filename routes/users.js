@@ -13,7 +13,8 @@ router.get('/new-user', (req, res) => {
 });
 
 router.post('/profiles', upload.single('image'), (req, res) => {
-
+  const uploadedImageFile = req.file;
+  const userData = req.body;
 });
 
 module.exports = router;
