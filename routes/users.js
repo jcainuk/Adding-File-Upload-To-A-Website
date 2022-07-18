@@ -12,7 +12,7 @@ router.get('/new-user', (req, res) => {
   res.render('new-user');
 });
 
-router.post('/profiles', (req, res) => {
+router.post('/profiles', upload.single('image'), (req, res) => {
 
 });
 
