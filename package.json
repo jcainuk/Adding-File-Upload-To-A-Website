@@ -1,0 +1,27 @@
+{
+  "name": "adding-file-upload-to-a-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcainuk/Adding-File-Upload-To-A-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcainuk/Adding-File-Upload-To-A-Website/issues"
+  },
+  "homepage": "https://github.com/jcainuk/Adding-File-Upload-To-A-Website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0"
+  }
+}
