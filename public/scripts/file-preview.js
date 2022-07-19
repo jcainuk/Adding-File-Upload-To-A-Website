@@ -7,6 +7,9 @@ const showPreview = () => {
     return;
   }
   const pickedFile = files[0];
+
+  // Create a local URL that only works on user's computer
+  imagePreviewElement.src = URL.createObjectURL(pickedFile);
 };
 
 filePickerElement.addEventListener('change', showPreview);
