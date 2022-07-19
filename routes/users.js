@@ -1,6 +1,8 @@
 const express = require('express');
 const multer = require('multer');
 
+const db = require('../data/database');
+
 const storageConfig = multer.diskStorage({
   destination(req, file, cb) {
     cb(null, 'images');
